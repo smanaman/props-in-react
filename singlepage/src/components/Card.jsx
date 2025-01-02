@@ -1,5 +1,5 @@
 import './Card.css'
-function Card({name,pic}) {
+function Card({name,pic,dis}) {
     
 return(
 <>
@@ -10,6 +10,9 @@ return(
             <img className='trisum-pic' src={pic} alt="" />
         </div>
         <div className="text-tor">{name}</div>
+        <div className="text-pera">
+{dis}
+        </div>
         <div className="icon-tor">
             <div className="icon-div"><i className="fa-brands fa-facebook" style={{ color: "#145bd7" }} />
             </div>
